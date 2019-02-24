@@ -1,0 +1,11 @@
+spring:
+  security:
+    user:
+      name: product-server
+  cloud:
+    zookeeper:
+      connect-string: 47.94.9.39:2181
+      discovery:
+        root: /spring-cloud-server
+server:
+  port: 8771
